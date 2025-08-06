@@ -54,12 +54,8 @@ def webhook():
             "outputs": [
                 {
                     "simpleText": {
-                        "text": f"[{selected['title']}]
-
-{selected['description']}
-
-💡 오늘의 조언
-{selected['advice']}"
+                        "text": f"[{selected['title']}]\n\n{selected['description']}\n\n💡 오늘의 조언\n{selected['advice']}"
+                        
                     }
                 }
             ]
